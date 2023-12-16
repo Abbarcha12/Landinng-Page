@@ -1,0 +1,246 @@
+.header {
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    gap: 456px;
+    background: var(--bw-white, #fff);
+    box-shadow: 0px 10px 29px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    height: 100%;
+}
+
+.Select {
+    border: none !important;
+    text-transform: uppercase !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.Select:focus {
+    border: none !important;
+}
+
+.Hero_Sectio {
+    background-image: url("./images/Image.png");
+
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+
+.MainHeading {
+    color:  #fff;
+    text-align: center;
+    text-shadow: 0px 10px 29px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    font-family: Enriqueta;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 112px */
+}
+
+.Btn {
+    border-radius: 4.303px;
+    border: 0.269px solid #dbe8d3;
+    background: #161616;
+    padding: 10px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 2.689px;
+    color: #fff;
+    text-shadow: 0px 8.103px 23.499px rgba(0, 0, 0, 0.1);
+    font-family: Enriqueta;
+    font-size: 15.45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 21.63px */
+}
+
+.Btn1 {
+    border-radius: 4.303px;
+    border: 0.134px solid rgba(0, 0, 0, 0.35);
+    margin-left: 20px;
+    background: #ffffff;
+    padding: 10px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 2.689px;
+    color: #050505;
+    text-shadow: 0px 8.103px 23.499px rgba(0, 0, 0, 0.1);
+    font-family: Enriqueta;
+    font-size: 15.45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 21.63px */
+}
+
+.HeadingTwo {
+    color: #161616;
+
+    text-shadow: 0px 10px 29px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+
+
+.line {
+    width: 78px;
+    margin-right: 30px;
+    height: 8px;
+    background-color: #BA7D5C;
+}
+.line1{
+    width: 78px;
+    margin-right: 30px;
+    height: 4px;
+    background-color: #BA7D5C;
+}
+
+.exploreCard {
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.miniCard {
+    top: 70%;
+
+    position: absolute;
+    width: 94%;
+  
+    padding: 10px;
+    align-items: center;
+    border-radius: 16px;
+    border: 0.5px solid #161616;
+    background: #FFF;
+
+}
+.miniCard:hover{
+    background-color: #050505;
+    color: #fff;
+}
+
+.miniCard:hover  .title {
+    color: #ffff;
+}
+.miniCard:hover  .Cardtext {
+    color: #ffff;
+}
+
+.title {
+    
+    color: #5B5958;
+    text-shadow: 0px 10px 29px rgba(0, 0, 0, 0.10);
+    font-family: Enriqueta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.Cardtext {
+    color: #5B5958;
+    /* Easy Ease */
+    text-shadow: 0px 10px 29px rgba(0, 0, 0, 0.10);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 19.6px */
+}
+.FooterText{
+    color:  #565656;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: League Spartan;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 180%; /* 28.8px */
+}
+.footer{
+    margin-top: 190px;
+}
+.ExploreBtn {
+   
+    border-radius: 6px;
+    border: 1px solid #161616;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 33px;
+    background-color: white;
+}
+.miniCard:hover  .ExploreBtn {
+   color: #ffff;
+    background-color: #BA7D5C;
+}
+
+@media screen and (max-width: 600px) {
+    .smallScreen {
+        display: none;
+    
+    }
+    .header{
+padding: 10px;
+    }
+    .MainHeading{
+        font-size: 24px;
+        line-height: 34px;
+        max-width: 350px;
+        text-transform: capitalize;
+    }
+    .Hero_Sectio{
+        height: 300px;
+    }
+    .Btn{
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+    .Btn1{
+        padding: 10px 30px;
+        font-size: 12px;
+    }
+    .HeadingTwo{
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 5px;
+    }
+    .line{
+        height: 3px;
+        width: 38px;
+    }
+    .default{
+        margin-top: 50px;
+    }
+    .defaultHeight{
+        margin-top: 100px;
+    }
+    .FooterText{
+        font-size: 9px;
+    }
+}
+
